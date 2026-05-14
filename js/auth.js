@@ -20,7 +20,7 @@ async function Register() {
     }
 
     try {
-        const res = await fetch('https://kval-backend.onrender.com/reg', {
+        const res = await fetch('https://kvalback.onrender.comreg', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json' 
@@ -64,7 +64,7 @@ async function Login() {
     }
 
     try {
-        const res = await fetch('https://kval-backend.onrender.com/login', {
+        const res = await fetch('https://kvalback.onrender.comlogin', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json' 
