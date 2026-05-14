@@ -20,7 +20,7 @@ async function newRequest() {
     };
 
     try {
-        const res = await fetch('https://kval-backend.onrender.com/request', {
+        const res = await fetch('https://kvalback.onrender.comrequest', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
