@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 async function getRequestAll() {
     try {
-        const res = await fetch(`https://kval-backend.onrender.com/request/all`, {
+        const res = await fetch(`https://kvalback.onrender.comrequest/all`, {
             method: 'GET',
         });
 
@@ -223,7 +223,7 @@ async function updateStatus() {
     }
 
     try {
-        const res = await fetch('https://kval-backend.onrender.com/request/status', {
+        const res = await fetch('https://kvalback.onrender.comrequest/status', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
